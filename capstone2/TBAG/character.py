@@ -53,6 +53,7 @@ class Enemy (Character):
             print(f'{self.name} crushes you, puny adventurer')
             print('GAME OVER')#Task 2
             return False
+        
    
    
 #Task 4
@@ -61,6 +62,12 @@ class Friend (Character):
         super().__init__(char_name, char_description)
         self.give_gift = None
 
+    def set_weakness(self, item_weakness):
+        self.weakness = item_weakness
+    def get_weakness(self):
+
+        return self.weakness
+    
 
 
         

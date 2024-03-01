@@ -2,7 +2,7 @@ from character import Friend
 
 zack = Friend('Zack', 'A brave kid')
 zack.describe()
-zack.give_gift()
+zack.give_gift('key')
 zack.set_conversation('I think you\'re just having a bad day.')
 zack.talk()
 
